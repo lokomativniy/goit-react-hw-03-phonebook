@@ -1,0 +1,32 @@
+.input {
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: solid 3px;
+  transition: 250ms;
+  border: solid 3px#fff;
+}
+
+.input:hover,
+.input:focus {
+  border: solid 3px teal;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  border: solid 2px teal;
+  transition: 250ms;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  background-color: teal;
+  border-color: #ffffff;
+}
